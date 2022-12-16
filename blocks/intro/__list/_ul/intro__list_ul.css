@@ -1,0 +1,25 @@
+.intro__list_ul {
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media (max-width: 425px) {
+    .intro__list_ul {
+        max-width: 288px;
+        width: 100%;
+        max-height: 90px;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+@media (max-width: 768px) {
+    .intro__list_ul {
+        max-width: 720px;
+        width: 100%;
+        max-height: 90px;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
