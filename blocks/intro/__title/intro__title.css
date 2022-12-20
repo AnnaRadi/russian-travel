@@ -24,7 +24,7 @@
     padding-bottom: 40px;
     max-width: 720px;
     font-weight: 900;
-    font-size: calc(32px + (54 - 32) * ((100vw - 320px) / (768 - 320)));;
+    font-size: calc(32px + (54 - 32) * ((100vw - 320px) / (768 - 320)));
     line-height: 107%;
   }
 }
