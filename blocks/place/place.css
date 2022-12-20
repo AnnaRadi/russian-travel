@@ -28,28 +28,23 @@
 
 @media (max-width: 1024px) {
   .place {
-    margin: 0 auto;
-    padding: 0;
     padding-bottom: 73px;
-    max-width: 928px;
-    width: 100%;
+    max-width: 90.625%;
     display: grid;
     justify-items: left;
-    grid-template-columns: 440px 456px;
+    grid-template-columns: 1fr 1fr;
     row-gap: 26px;
     column-gap: 32px;
     align-items: flex-start;
   }
 
   .place:last-of-type {
-    margin: 0 auto;
-    padding: 0;
     padding-bottom: 90px;
-    max-width: 928px;
+    max-width: 90.625%;
     width: 100%;
     display: grid;
     justify-items: left;
-    grid-template-columns: 440px 456px;
+    grid-template-columns: 1fr 1fr;
     row-gap: 26px;
     column-gap: 32px;
     align-items: flex-start;
@@ -58,15 +53,22 @@
 
 @media (max-width: 768px) {
   .place {
-    margin: 0;
-    padding: 0;
     padding-bottom: 73px;
-    max-width: 720px;
-    width: 100%;
+    max-width: 93.75%;
     display: grid;
     justify-items: left;
-    grid-template-columns: 340px 352px;
+    grid-template-columns: 1fr 1fr;
     row-gap: 25px;
+    column-gap: 28px;
+    align-items: flex-start;
+  }
+  .place:last-of-type {
+    padding-bottom: 90px;
+    max-width: 93.75%;
+    display: grid;
+    justify-items: left;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 0;
     column-gap: 28px;
     align-items: flex-start;
   }
@@ -74,16 +76,12 @@
 
 @media (max-width: 425px) {
   .place {
-    margin: 0 auto;
-    padding: 0;
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     gap: 0;
   }
   .place:last-of-type {
-    margin: 0 auto;
-    padding: 0;
     padding-bottom: 66px;
     display: flex;
     flex-direction: column;

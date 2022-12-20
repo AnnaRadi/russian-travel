@@ -7,12 +7,31 @@
   background-image: url('../../images/__background.svg');
   background-size:cover;
   position: relative;
-  z-index: 1;
+  color: white;
+
+  /*z-index: 1;*/
 }
 
 @media (max-width: 1024px) {
   .cover {
-    background-image: url('../../images/__background.svg');
-    background-size:cover;
+  min-width: 100%;
+  min-height: 100%;
+  background-size:cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+  min-width: 100%;
+  min-height: 100%;
+  background-size:cover;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover {
+  min-width: 320px;
+  min-height: 200px;
+  background-size:cover;
   }
 }

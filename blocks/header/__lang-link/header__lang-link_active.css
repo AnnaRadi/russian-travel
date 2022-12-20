@@ -1,19 +1,22 @@
-.header__lang-link {
+.header__lang-link_active {
+  margin: 0;
+  text-align: left;
   font-family: 'Inter', Arial;
   font-style: normal;
   color: #FFFFFF;
-  text-decoration-line: none;
-  margin: 0;
-  padding: 18px 0px 6px 18px;
-  max-width: 29px;
+  text-decoration-line: underline;
+  padding: 18px 0px 6px 0;
+  max-width: 30px;
   font-weight: 400;
   font-size: 24px;
   line-height: 117%;
+  text-align: left;
 }
 
+
 @media (max-width: 425px) {
-  .header__lang-link {
-    padding: 14px 0px 8px 18px;
+  .header__lang-link_active {
+    padding: 14px 0px 8px 0;
     max-width: 22px;
     font-weight: 400;
     font-size: 18px;
