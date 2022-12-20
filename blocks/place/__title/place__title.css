@@ -28,7 +28,7 @@
 
 @media (max-width: 768px) {
     .place__title {
-        font-size:  calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));;
+        font-size:  calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));
         line-height: 110%;
         padding-bottom: 23px;
         max-width: 320px;
