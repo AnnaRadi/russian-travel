@@ -74,14 +74,32 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 600px) {
   .place {
+    margin: 0 auto;
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     gap: 0;
   }
   .place:last-of-type {
+    margin: 0 auto;
+    padding-bottom: 66px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+}
+@media (max-width: 320px) {
+  .place {
+    margin: 0;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .place:last-of-type {
+    margin: 0;
     padding-bottom: 66px;
     display: flex;
     flex-direction: column;
