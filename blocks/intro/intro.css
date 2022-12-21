@@ -7,7 +7,6 @@
 
 @media (max-width: 1024px) {
   .intro {
-    margin: 0 auto;
     padding-bottom: 88px;
     max-width: 90.625%;
 
@@ -16,15 +15,12 @@
 
 @media (max-width: 768px) {
   .intro {
-    margin: 0 auto;
-    padding-bottom: 88px;
     max-width: 93.75%;
   }
 }
 
 @media (max-width: 425px) {
   .intro {
-    margin: 0 auto;
     padding-bottom: 64px;
 
   }

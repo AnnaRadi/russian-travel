@@ -15,14 +15,12 @@
 
 @media (max-width: 768px) {
     .place__website-link {
-        max-width: 288px;
-        width: 100%;
+        max-width: 352px;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 615px) {
     .place__website-link {
         padding-bottom: 32px;
-        max-width: 100%;
     }
 }

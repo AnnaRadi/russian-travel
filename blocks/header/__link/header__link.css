@@ -2,7 +2,7 @@
   font-family: 'Inter', Arial;
   font-style: normal;
   color: #FFFFFF;
-  text-decoration: underline;
+  text-decoration: none;
   margin: 0;
   padding: 18px 0px 6px 18px;
   font-weight: 400;
@@ -13,9 +13,8 @@
 
 @media (max-width: 425px) {
   .header__link {
-    padding: 14px 0px 8px 18px;
-    max-width: 22px;
-    font-weight: 400;
+    padding-top: 14px;
+    padding-bottom:8px;
     font-size: 18px;
     line-height: 111%;
   }

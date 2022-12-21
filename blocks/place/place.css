@@ -1,108 +1,57 @@
 .place {
   margin: 0 auto;
-  padding: 0;
   padding-bottom: 80px;
   max-width: 984px;
   width: 100%;
   display: grid;
   justify-items: left;
   grid-template-columns: 460px 484px;
-  row-gap: 27px;
+  row-gap: 48px;
   column-gap: 40px;
   align-items: flex-start;
 }
 
 .place:last-of-type {
-  margin: 0 auto;
-  padding: 0;
   padding-bottom: 92px;
-  max-width: 984px;
-  width: 100%;
-  display: grid;
-  justify-items: left;
-  grid-template-columns: 460px 484px;
-  row-gap: 27px;
-  column-gap: 40px;
-  align-items: flex-start;
 }
 
 @media (max-width: 1024px) {
   .place {
-    padding-bottom: 73px;
     max-width: 90.625%;
-    display: grid;
-    justify-items: left;
     grid-template-columns: 1fr 1fr;
-    row-gap: 26px;
     column-gap: 32px;
-    align-items: flex-start;
   }
 
   .place:last-of-type {
-    padding-bottom: 90px;
-    max-width: 90.625%;
     width: 100%;
-    display: grid;
-    justify-items: left;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 26px;
-    column-gap: 32px;
-    align-items: flex-start;
   }
 }
 
 @media (max-width: 768px) {
   .place {
-    padding-bottom: 73px;
+    padding-bottom: 72px;
     max-width: 93.75%;
-    display: grid;
-    justify-items: left;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 25px;
     column-gap: 28px;
-    align-items: flex-start;
   }
   .place:last-of-type {
     padding-bottom: 90px;
-    max-width: 93.75%;
-    display: grid;
-    justify-items: left;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 0;
-    column-gap: 28px;
-    align-items: flex-start;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 615px) {
   .place {
-    margin: 0 auto;
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     gap: 0;
   }
   .place:last-of-type {
-    margin: 0 auto;
     padding-bottom: 66px;
-    display: flex;
-    flex-direction: column;
-    gap: 0;
   }
 }
 @media (max-width: 320px) {
   .place {
     margin: 0;
-    padding-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-  }
-  .place:last-of-type {
-    margin: 0;
-    padding-bottom: 66px;
-    display: flex;
-    flex-direction: column;
-    gap: 0;
+    max-width: 100%;
   }
 }

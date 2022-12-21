@@ -4,14 +4,14 @@
      max-width: 92.5%;
      position: relative;
      display: flex;
-     align-items: center;
+     align-items: flex-end;
      flex-direction: row;
      justify-content:space-between;
  }
 
  @media (max-width: 1024px) {
      .header {
-         padding: 28px 0 56px 0;
+         padding: 28px 0 48px 0;
          max-width: 90.63%;
      }
  }

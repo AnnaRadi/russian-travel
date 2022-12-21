@@ -1,28 +1,18 @@
 .place__title {
-    font-family: 'Inter';
+    font-family: 'Inter', Arial;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 106%;
     margin: 0;
     padding: 0;
-    padding-bottom: 21px;
     max-width: 460px;
     width: 100%;
 }
 
 @media (max-width: 1024px) {
     .place__title {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 72px;
-        line-height: 106%;
-        margin: 0;
-        padding: 0;
-        padding-bottom: 20px;
         max-width: 440px;
-        width: 100%;
     }
 }
 
@@ -30,18 +20,15 @@
     .place__title {
         font-size:  calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));
         line-height: 110%;
-        padding-bottom: 23px;
-        max-width: 320px;
-        width: 100%;
+        max-width: 330px;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 615px) {
     .place__title {
         font-size: 32px;
         line-height: 109%;
         margin: 0 auto;
-        padding: 0;
         padding-bottom: 32px;
         max-width: 90%;
     }

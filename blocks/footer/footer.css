@@ -1,8 +1,6 @@
 .footer {
   margin: 0 auto;
-  padding: 0;
-  padding-top: 92px;
-  padding-bottom: 24px;
+  padding: 92px 0  24px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -24,16 +22,13 @@
     padding-top: 88px;
     padding-bottom: 24px;
     max-width: 720px;
-    width: 100%;
   }
 }
 
 @media (max-width: 425px) {
   .footer {
     padding-top: 64px;
-    display: flex;
     flex-direction: column;
     max-width: 288px;
-    width: 100%;
   }
 }

@@ -2,7 +2,6 @@
     max-width: 460px;
     margin: 0;
     padding: 0;
-    grid-row: span 2;
     aspect-ratio: 1/1;
 }
 
@@ -18,7 +17,7 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 615px) {
     .place__image {
         max-width: 600px;
         width: 100%;
@@ -31,7 +30,5 @@
 @media (max-width: 320px) {
     .place__image {
         min-width: 320px;
-        width: 100%;
-        margin: 0;
     }
 }
