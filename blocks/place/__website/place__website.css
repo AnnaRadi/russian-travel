@@ -18,7 +18,7 @@
     }
 }
 
-@media (max-width: 615px) {
+@media (max-width: 560px) {
     .place__website {
         margin: 0 auto;
         max-width: 90%;

@@ -19,7 +19,7 @@
     }
 }
 
-@media (max-width: 615px) {
+@media (max-width: 560px) {
     .place__website-link {
         padding-bottom: 32px;
     }

@@ -14,10 +14,11 @@
 @media (max-width: 768px) {
     .place__image {
         max-width: 340px;
+        width: 100%;
     }
 }
 
-@media (max-width: 615px) {
+@media (max-width: 560px) {
     .place__image {
         max-width: 600px;
         width: 100%;
