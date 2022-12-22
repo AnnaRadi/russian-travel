@@ -21,10 +21,6 @@
     grid-template-columns: 2fr 3fr;
     column-gap: 32px;
   }
-
-  .place:last-of-type {
-    width: 100%;
-  }
 }
 
 @media (max-width: 768px) {

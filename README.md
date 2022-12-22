@@ -19,4 +19,4 @@
 Картинки бфыли оптимизированы с помощью программы (https://tinypng.com/),сделано для того,  чтобы сайт загружался быстрее.
 
 **GitHub Pages**
-* [Ссылка на GitHub Pages](https://github.com/AnnaRadi/russian-travel/index.html)
+* [Ссылка на GitHub Pages](https://github.com/AnnaRadi/russian-travel/blob/main/index.html)

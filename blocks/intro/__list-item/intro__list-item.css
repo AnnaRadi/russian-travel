@@ -9,12 +9,6 @@
   list-style: none;
 }
 
-@media (max-width: 1024px) {
-  .intro__list-item {
-    max-width: 690px;
-  }
-}
-
 @media (max-width: 768px) {
   .intro__list-item {
     max-width: 720px;
